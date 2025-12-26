@@ -1,6 +1,6 @@
 # Machine Health Monitoring using ESP8266
 
-This project monitors machine RPM using a photoelectric sensor and displays
+This project monitors machine vibration using a photoelectric sensor and displays
 real-time data on a web dashboard hosted by ESP8266.
 
 ## Features
@@ -13,6 +13,7 @@ real-time data on a web dashboard hosted by ESP8266.
 ## Hardware Used
 - ESP8266 (NodeMCU)
 - Photoelectric sensor
+- Motor
 - LED
 - Buzzer
 
@@ -22,8 +23,8 @@ real-time data on a web dashboard hosted by ESP8266.
 - Chart.js (for visualization)
 
 ## How it Works
-ESP8266 counts sensor pulses using interrupts, calculates RPM, and hosts
-a web page that displays machine health parameters in real time.
+ESP8266 counts sensor pulses using interrupts of a piece of reflection tape on disc connected to motor shaft, calculates RPM, and hosts a web page that displays machine health parameters like energy consumption, down time, RPM, frequency, machine status and graph in real time.
 
 ## Author
 Rithika
+
